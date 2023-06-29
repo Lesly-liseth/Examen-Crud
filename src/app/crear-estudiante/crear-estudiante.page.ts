@@ -18,9 +18,12 @@ export class CrearEstudiantePage implements OnInit {
   ngOnInit() {
     this.bookingForm = this.fb.group({
       nombres: [''],
-      apellidos: [''], 
+      apellidos: [''],
       nota1: [''],
       nota2: [''],
+      nota3: [''],
+      nota4: [''],
+      nota5: [''],
     });
   }
   formSubmit() {
