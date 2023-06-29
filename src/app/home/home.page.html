@@ -13,11 +13,27 @@
     <ion-item *ngFor="let booking of Bookings" class="user-list">
       <ion-label>
         <h5>
-          <ion-icon name="person"></ion-icon> {{booking.name}}
+          <ion-icon name="person"></ion-icon> {{booking.nombres}}
         </h5>
         <p>
-          <ion-icon name="call"></ion-icon> {{booking.mobile}}
+          <ion-icon name="apellido"></ion-icon> {{booking.apellidos}}
         </p>
+        <p>
+          <ion-icon name="nota1"></ion-icon> {{booking.nota1}}
+        </p>
+        <p>
+          <ion-icon name="nota2"></ion-icon> {{booking.nota2}}
+        </p>
+        <p>
+          <ion-icon name="nota3"></ion-icon> {{booking.nota3}}
+        </p>
+        <p>
+          <ion-icon name="nota4"></ion-icon> {{booking.nota4}}
+        </p>
+        <p>
+          <ion-icon name="nota5"></ion-icon> {{booking.nota5}}
+        </p>
+
       </ion-label>
       <div class="item-note" item-end>
         <button ion-button clear [routerLink]="['/editar-estudiante/', booking.$key]">
