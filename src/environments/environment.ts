@@ -13,6 +13,7 @@ export const environment = {
     // messagingSenderId: "430051088078",
     // appId: "1:430051088078:web:d2489c60cfcc8d3af0629f",
     // measurementId: "G-18BCZEN1EZ"
+    
     apiKey: "AIzaSyCbERhlqJFsrx9Czn28jdvzhlLHdes_YDs",
     authDomain: "applocationimg.firebaseapp.com",
     projectId: "applocationimg",
