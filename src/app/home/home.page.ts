@@ -31,7 +31,7 @@ export class HomePage implements OnInit {
   }
   deleteBooking(id: any) {
     console.log(id);
-    if (window.confirm('Do you really want to delete?')) {
+    if (window.confirm('Desea eliminar el estudiante?')) {
       this.aptService.deleteBooking(id);
     }
   }
