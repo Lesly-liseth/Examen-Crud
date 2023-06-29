@@ -21,6 +21,10 @@ export class EstudianteService {
       apellidos: apt.apellidos,
       nota1: apt.nota1,
       nota2: apt.nota2,
+      nota3: apt.nota3,
+      nota4: apt.nota4,
+      nota5: apt.nota5,
+
     });
   }
   // Get Single
@@ -40,6 +44,9 @@ export class EstudianteService {
       apellidos: apt.apellidos,
       nota1: apt.nota1,
       nota2: apt.nota2,
+      nota3: apt.nota3,
+      nota4: apt.nota4,
+      nota5: apt.nota5,
     });
   }
   // Delete
